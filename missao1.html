@@ -39,9 +39,19 @@
 
     <p></p>
 
+    <ul style="color:rgba(255, 255, 255, 0.832)">
+        <li><a href="respmissao1.html">Portal Conceitual</a> </li>
+
+        <!--Crie um link neste portal, que ao clicar irá abrir um formulário/ você sabe o que é Tag? (sim ou não 
+        Qual a tag para criar um formulário? <input type="text" id="resposta">
+        Crie um botão enviar)-->
+
+        <li>Portal Estrutural</li>
+        <li>Portal Essencial</li>
+    </ul>
     <div class="img-container">
 
-
+        Encontrar Tags
         <canvas id="jogo" width="300" height="300">
             O browser não suporta a tecnologia
         </canvas>
@@ -54,11 +64,9 @@
         var context = canvas.getContext("2d")
         var imagem = new Image()
         imagem.src = "img/furao-guerreiro.png"
-
-
+        //CODIGO DA AVALIAÇÃO
         var mensagem = document.querySelector("p")
-
-        mensagem.innerHTML = `Missões para o Furão Guerreiro`
+        mensagem.innerHTML = `Missão 1 - Encontrar Tags`
 
 
 
